@@ -1,0 +1,39 @@
+div{  /*Container*/
+  position: relative;
+  top: 50px;
+  left: 20px;
+}
+
+
+.hoodie{ /*Border for image*/
+  display: inline-block;
+  vertical-align: top;
+  height: 340px;
+  width: 230px;
+  border-style: solid;
+  border-color: black;
+  margin-top: 20px;
+  margin-right: 20px;
+  margin-left: 20px;;
+  transition: 0.5s;
+}
+img{ /*Image*/
+  height: 270px;
+  width: 230px;
+  object-fit: cover;
+  border-bottom: 2px solid black;
+}
+.product{ /*Product Name*/
+  margin: 10px 0px 0px 0px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  object-position: bottom ;
+  padding: 0px 8px 0px 8px;
+}
+.hoodie:hover{ /*Hover for Product*/
+  transform: scale(115%);
+  color: rgb(144, 142, 142);
+}
+a{ /*Style for link*/
+  text-decoration: none;
+  color: black
+}
